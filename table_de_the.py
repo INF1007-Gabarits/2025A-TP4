@@ -78,7 +78,13 @@ class TableDeThe:
                 2. Pour chaque autre personnage, appeler `chapelier.offrir_the(p)`.
                 3. Enfin, appeler `self.se_presenter_tous()` pour que tout le monde se présente.
         """
-        pass
+        chapeliers = [p for p in self.personnages if isinstance(p, ChapelierFou)]
+        if not chapeliers:
+            # TODO
+            pass
+        else:
+            # TODO
+            pass
         
     def __len__(self):
         """

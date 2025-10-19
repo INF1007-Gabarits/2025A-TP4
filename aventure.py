@@ -36,6 +36,8 @@ class Aventure:
             - Sinon, afficher "Il n’y a pas de Chapelier Fou pour organiser le thé."
         """
         pass
+        chapelier = next((p for p in self.personnages if isinstance(p, ChapelierFou)), None)
+
             
     def dispute_royale(self):
         """
@@ -52,6 +54,9 @@ class Aventure:
             - Sinon, afficher "Il n’y a pas de Reine de Coeur ou un autre personnage dans cette aventure."
         """
         pass
+        reine = next((p for p in self.personnages if isinstance(p, ReineDeCoeur)), None)
+        victime = None
+
             
     def mystere_du_chat(self):
         """
@@ -64,6 +69,8 @@ class Aventure:
             - Sinon, afficher "Il n’y a pas de Chat Cheshire dans cette aventure."
         """
         pass
+        chat = next((p for p in self.personnages if isinstance(p, ChatCheshire)), None)
+
 
     def presentation_personnages(self):
         """
