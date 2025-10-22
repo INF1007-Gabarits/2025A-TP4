@@ -171,7 +171,7 @@ Une **méthode statique** est une fonction définie au sein d'une classe qui 
 | **`TableDeThe`**     | **`__len__`**  | Retourne le nombre de personnages présents à la table de thé.                                                                                   |
 |                      |                |                                                                                                                                                 |
 
-# Partie 5 - Simulation de l’aventure
+# Partie 5 - Simulation de l’aventure (bonus)
 
 La classe **Aventure** orchestre différents événements impliquant les personnages du _Pays des Merveilles_.   Elle s’appuie sur la classe **TableDeThe** pour gérer les interactions collectives, et sur les classes dérivées de **Personnage** pour simuler les comportements.
 
