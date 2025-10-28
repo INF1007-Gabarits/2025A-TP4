@@ -6,7 +6,7 @@ class TableDeThe:
         """
         Initialise une nouvelle table de thé.
         
-        TODO (PARTIE 2):
+        TODO (PARTIE 3):
             - Créer un attribut d’instance `personnages` initialisé à une liste vide.
         """
         pass
@@ -18,7 +18,7 @@ class TableDeThe:
         Args:
             personnage (Personnage): Le personnage à ajouter.
 
-        TODO (PARTIE 2):
+        TODO (PARTIE 3):
             - Vérifier si le personnage n’est pas déjà dans la liste `personnages`.
             - Si non, 
                     1. l’ajouter à la liste des personnage et 
@@ -34,7 +34,7 @@ class TableDeThe:
         Args:
             personnage (Personnage): Le personnage à retirer.
 
-        TODO (PARTIE 2):
+        TODO (PARTIE 3):
             - Vérifier si le personnage est dans la liste `personnages`.
             - Si oui, 
                 1. le retirer 
@@ -47,7 +47,7 @@ class TableDeThe:
         """
         Fait se présenter tous les personnages autour de la table.
         
-        TODO (PARTIE 2):
+        TODO (PARTIE 3):
             - Afficher: "Autour de la table, chacun se présente :"
             - Appeler la méthode `se_presenter()` pour chaque personnage dans `personnages`.
         """
@@ -60,7 +60,7 @@ class TableDeThe:
         Returns:
             int: La somme des énergies de tous les personnages.
 
-        TODO (PARTIE 2):
+        TODO (PARTIE 3):
             - Retourner la somme des énergies (`p.energie`) pour chaque personnage de `personnages`.
         """
         pass
@@ -69,7 +69,7 @@ class TableDeThe:
         """
         Organise un thé magique dirigé par le Chapelier Fou.
         
-        TODO (PARTIE 2):
+        TODO (PARTIE 3):
             - Rechercher les personnages de type `ChapelierFou` dans `personnages`.
             - Si aucun trouvé, 
                 1. afficher: "Il n’y a pas de Chapelier Fou pour organiser le thé."
