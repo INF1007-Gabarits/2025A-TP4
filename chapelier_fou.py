@@ -1,4 +1,6 @@
 from personnage import Personnage
+from interface import Humeur
+
 
 class ChapelierFou(Personnage):
     """
