@@ -10,6 +10,7 @@ class Humeur(Enum):
         TRES_PRESSE = 'très pressé'
         MYSTERIEUX = 'mystérieux'
         INVISIBLE = 'invisible'
+        COLERIQUE = 'colérique'
         FURIEUSE = 'furieuse'
         TERRIFIEE = 'terrifiée'
         REPOSE = 'reposée'
